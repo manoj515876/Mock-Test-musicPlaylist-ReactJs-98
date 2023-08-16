@@ -1,0 +1,45 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin-bottom: 20px;
+}
+
+.name-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 250px;
+}
+.name {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.genre {
+  font-family: 'Roboto';
+  color: #3b82f6;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #ffffff;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  align-items: center;
+}
+
+.card-track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
